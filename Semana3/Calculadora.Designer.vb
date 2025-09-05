@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Calculadora
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,6 +28,7 @@ Partial Class Form1
         tbNum1 = New TextBox()
         Label1 = New Label()
         lbResul = New Label()
+        Label2 = New Label()
         SuspendLayout()
         ' 
         ' btCalcular
@@ -64,7 +65,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(151, 167)
+        Label1.Location = New Point(147, 167)
         Label1.Name = "Label1"
         Label1.Size = New Size(73, 15)
         Label1.TabIndex = 4
@@ -78,11 +79,21 @@ Partial Class Form1
         lbResul.Size = New Size(0, 15)
         lbResul.TabIndex = 5
         ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Location = New Point(147, 191)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(77, 15)
+        Label2.TabIndex = 6
+        Label2.Text = "2do Numero "
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(Label2)
         Controls.Add(lbResul)
         Controls.Add(Label1)
         Controls.Add(tbNum1)
@@ -101,5 +112,6 @@ Partial Class Form1
     Friend WithEvents tbNum1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents lbResul As Label
+    Friend WithEvents Label2 As Label
 
 End Class
