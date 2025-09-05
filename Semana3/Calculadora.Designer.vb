@@ -33,7 +33,7 @@ Partial Class Calculadora
         ' 
         ' btCalcular
         ' 
-        btCalcular.Location = New Point(463, 188)
+        btCalcular.Location = New Point(328, 45)
         btCalcular.Name = "btCalcular"
         btCalcular.Size = New Size(75, 23)
         btCalcular.TabIndex = 0
@@ -43,21 +43,21 @@ Partial Class Calculadora
         ' cbOperaciones
         ' 
         cbOperaciones.FormattingEnabled = True
-        cbOperaciones.Location = New Point(336, 189)
+        cbOperaciones.Location = New Point(201, 46)
         cbOperaciones.Name = "cbOperaciones"
         cbOperaciones.Size = New Size(121, 23)
         cbOperaciones.TabIndex = 1
         ' 
         ' tbNum2
         ' 
-        tbNum2.Location = New Point(230, 188)
+        tbNum2.Location = New Point(95, 45)
         tbNum2.Name = "tbNum2"
         tbNum2.Size = New Size(100, 23)
         tbNum2.TabIndex = 2
         ' 
         ' tbNum1
         ' 
-        tbNum1.Location = New Point(230, 159)
+        tbNum1.Location = New Point(95, 16)
         tbNum1.Name = "tbNum1"
         tbNum1.Size = New Size(100, 23)
         tbNum1.TabIndex = 3
@@ -65,7 +65,7 @@ Partial Class Calculadora
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(147, 167)
+        Label1.Location = New Point(12, 24)
         Label1.Name = "Label1"
         Label1.Size = New Size(73, 15)
         Label1.TabIndex = 4
@@ -74,7 +74,7 @@ Partial Class Calculadora
         ' lbResul
         ' 
         lbResul.AutoSize = True
-        lbResul.Location = New Point(233, 225)
+        lbResul.Location = New Point(98, 82)
         lbResul.Name = "lbResul"
         lbResul.Size = New Size(0, 15)
         lbResul.TabIndex = 5
@@ -82,17 +82,17 @@ Partial Class Calculadora
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(147, 191)
+        Label2.Location = New Point(12, 48)
         Label2.Name = "Label2"
         Label2.Size = New Size(77, 15)
         Label2.TabIndex = 6
         Label2.Text = "2do Numero "
         ' 
-        ' Form1
+        ' Calculadora
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(423, 111)
         Controls.Add(Label2)
         Controls.Add(lbResul)
         Controls.Add(Label1)
@@ -100,7 +100,7 @@ Partial Class Calculadora
         Controls.Add(tbNum2)
         Controls.Add(cbOperaciones)
         Controls.Add(btCalcular)
-        Name = "Form1"
+        Name = "Calculadora"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
